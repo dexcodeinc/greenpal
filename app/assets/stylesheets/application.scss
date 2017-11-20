@@ -1,9 +1,7 @@
 @import "bootstrap";
 @import "font-awesome";
-@import "home";
-@import "fonts";
 
-body {
-  background-color: #EAEAEA;
-  font-family: 'Proxima Nova Regular';
-}
+@import "fonts";
+@import "variables";
+@import "common";
+@import "home";

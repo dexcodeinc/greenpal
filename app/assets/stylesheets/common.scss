@@ -1,0 +1,22 @@
+body {
+  background-color: #EAEAEA;
+  font-family: 'Proxima Nova Regular';
+}
+
+h1 {
+  color: $font-color;
+  font-family: 'Proxima Nova Bold';
+}
+
+p {
+  color: $font-color;
+  font-family: 'Proxima Nova Light';
+}
+
+strong {
+  font-family: 'Proxima Nova Bold';
+}
+
+a, a:hover, a:visited, a:focus {
+  color: $blue;
+}

@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Demo
 
-Things you may want to cover:
+You can see the demo of the application at http://greenpal.dexcode.com
 
-* Ruby version
+## How to Run Locally
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Install `rvm` (https://rvm.io)
+2. Install ruby version 2.2.5 `rvm install 2.2.5`
+3. Install bundler `gem install bundler`
+4. Run `bundle install`
+5. Copy `secrets.sample.yml` to `secrets.yml`
+6. Run `rails s`

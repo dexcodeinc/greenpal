@@ -23,9 +23,13 @@
       </div>
       <div class="row justify-content-md-center content-tex">
         <div class="col col-md-6">
-          <h1 class="text-center font-weight-bold" style="font-family: Proxima Nova Bold;">Your Bids are on the Way!</h1>
-          <p class="text-center sub-title" style="font-family: Proxima Nova Light">Your first quotes should start arriving in 15 mins or less.</p>
-          <p class="text-center text-content" style="font-family: Proxima Nova Light">Local lawn care services in Nashville are looking over your lawn details to submit their pricising as we speak.</p>
+          <h1 class="text-center font-weight-bold">Your Bids are on the Way!</h1>
+          <p class="text-center sub-title">
+            Your first quotes should start arriving in 15 mins or less.
+          </p>
+          <p class="text-center text-content">
+            Local lawn care services in Nashville are looking over your lawn details to submit their pricising as we speak.
+          </p>
         </div>
       </div>
     </div>
@@ -53,59 +57,59 @@
           <%= image_tag("icon 4.png", :alt => "no-image") %>
         </div>
       </div>
-      <div class="row justify-content-md-center" style="position: relative; top: 15px;">
+      <div class="row justify-content-md-center how-to">
         <div class="col text-center box-content">
-          <p style="font-family: Proxima Nova Semi Bold">
+          <div class="subtitle">
             Get Bids
-          </p>
-          <p style="color: #535353">
-            You will start getting multiple bids here, end to this email: <Strong  style="color: #000">maya@pixelwrapped.com</Strong>
+          </div>
+          <p class="explanation">
+            You will start getting multiple bids here, end to this email: <strong>maya@pixelwrapped.com</strong>
           </p>
           <p><a href="#">Change</a></p>
         </div>
         <div class="col-md-1 text-center box-arrow"></div>
         <div class="col text-center box-content">
-          <p style="font-family: Proxima Nova Semi Bold">
+          <div class="subtitle">
             Pick Your Pro
-          </p>
-          <p style="color: #535353">
+          </div>
+          <p class="explanation">
             Read reviews, compare quotes & pick your pro.
           </p>
         </div>
         <div class="col-md-1 text-center box-arrow"></div>
         <div class="col text-center box-content">
-          <p style="font-family: Proxima Nova Semi Bold">
+          <div class="subtitle">
             Flexibility <%= fa_icon "question-circle" %>
+          </div>
+          <p class="explanation">
+            Your service date is set for <strong>Friday, May 26<sup>th</sup></strong>, and is flexible by:
           </p>
-          <p style="color: #535353">
-            Your service date is set for <strong style="color: #000">Friday, May 26<sup>th</sup></strong>, and is flexible by:
-            <p>
-              <div class="row justify-content-md-center">
-                <div class="col" style="padding: 0">
-                  <form action="#">
-                    <div class="form-group">
-                      <select class="form-control" id="exampleSelect1">
-                        <option>1 Day</option>
-                        <option>2 Day</option>
-                        <option>3 Day</option>
-                        <option>4 Day</option>
-                        <option>5 Day</option>
-                      </select>
-                    </div>
-                  </form>
+          <div class="row justify-content-md-center">
+            <div class="col" style="padding: 0">
+              <form action="#">
+                <div class="form-group">
+                  <select class="form-control" id="exampleSelect1">
+                    <option>1 Day</option>
+                    <option>2 Day</option>
+                    <option>3 Day</option>
+                    <option>4 Day</option>
+                    <option>5 Day</option>
+                  </select>
                 </div>
-              </div>
-            </p>
-            <p style="color: #535353">More flexibility will fetch better pricing.</p>
+              </form>
+            </div>
+          </div>
+          <p class="input-explanation">
+            More flexibility will fetch better pricing.
           </p>
         </div>
         <div class="col-md-1 text-center box-arrow"></div>
         <div class="col text-center box-content">
-          <p style="font-family: Proxima Nova Semi Bold">
+          <div class="subtitle">
             Payment
-          </p>
-          <p style="color: #535353">
-            After moving is done, pay throught GreenPal.
+          </div>
+          <p>
+            After mowing is done, pay throught GreenPal.
           </p>
         </div>
       </div>
@@ -215,5 +219,36 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="container container-footer">
+  <div class="col content">
+    <div class="pull-left">
+      <ul class="footer-links">
+        <li><a href="#">How It Works</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <p class="footer-copyright">
+        Copyright &copy; 2015 GreenPal Co. All rights reserved.
+      </p>
+    </div>
+    <div class="pull-right">
+      <p class="footer-slogan">The remote control for your lawn</p>
+      <ul class="footer-download-links">
+        <li>
+          <a href="#">
+            <%= image_tag("download_android.png", alt: "Download on Play Store") %>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <%= image_tag("download_ios.png", alt: "Download on App Store") %>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="clearfix" />
   </div>
 </div>

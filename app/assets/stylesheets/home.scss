@@ -2,49 +2,47 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.header{
+.header {
   height: 170px;
   background-color: #36a3e1;
 
   .row {
     padding-top: 34px;
     padding-left: 22px;
-    .logo {
-      border-right: 1px solid #47bce9;
-      padding-right: 14px;
-      img {
-        width: 155px;
-        position: relative;
-        top: 9px;
-      }
-    }
+  }
 
-    .icon-user{
-      padding-left: 23px;
-      padding-top: 3px;
-      img {
-        width: 40px;
-      }
-    }
+  .logo {
+    border-right: 1px solid #47bce9;
+    padding-right: 14px;
+  }
+  .logo img {
+    position: relative;
+    top: 4px;
+  }
 
-    .user-menu {
-      padding-left: 10px;
-      padding-top: 4px;
-      a {
-        font-size: 28px;
-        font-weight: bold;
-        color: #FFF;
-      }
-    }
+  .icon-user {
+    padding-left: 23px;
+    padding-top: 3px;
+  }
+  .icon-user img {
+    width: 40px;
+  }
+
+  .user-menu {
+    padding-left: 10px;
+    padding-top: 4px;
+  }
+  .user-menu a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF;
   }
 }
 
 .content {
   background-color: #FFF;
-  padding-bottom: 100px;
-  top: -52px;
   width: 90%;
-  margin: 0 auto;
+  margin: -52px auto 0;
 
   .content-1 {
     padding: 57px 0px;
@@ -67,6 +65,7 @@
       line-height: 1;
       .sub-title {
         font-size: 35px;
+        color: $font-color;
       }
       .text-content {
         font-size: 18px;
@@ -142,7 +141,69 @@
     .card-block {
       font-size: 13px;
       color: #535353;
+      margin-bottom: 15px;
     }
+  }
+}
+
+.how-to {
+  position: relative;
+  top: 15px;
+
+  .subtitle {
+    font-family: "Proxima Nova Semi Bold";
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .subtitle .fa {
+    color: #CCC;
+  }
+  p.explanation {
+    color: $font-color;
+  }
+  p.input-explanation {
+    font-size: 12px;
+    color: #CCC;
+  }
+}
+
+.container-footer {
+  .content {
+    background: none;
+    padding: 15px 0;
+    margin: 0 auto;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    display: inline-block;
+  }
+
+  ul.footer-download-links li + li {
+    margin-left: 5px;
+  }
+
+  ul.footer-links {
+    margin-top: 20px;
+  }
+  ul.footer-links li + li {
+    margin-left: 10px;
+  }
+  ul.footer-links a {
+    font-family: 'Proxima Nova Light';
+  }
+
+  .footer-copyright {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .footer-slogan {
+    font-family: 'Proxima Nova Semi Bold';
+    margin: 0;
   }
 }
 
@@ -151,7 +212,7 @@
     max-width: 1230px;
   }
 
-  .container-content {
+  .container-content, .container-footer {
     max-width: 1210px;
   }
 }
