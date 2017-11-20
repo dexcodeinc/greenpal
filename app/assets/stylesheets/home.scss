@@ -1,0 +1,157 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header{
+  height: 170px;
+  background-color: #36a3e1;
+
+  .row {
+    padding-top: 34px;
+    padding-left: 22px;
+    .logo {
+      border-right: 1px solid #47bce9;
+      padding-right: 14px;
+      img {
+        width: 155px;
+        position: relative;
+        top: 9px;
+      }
+    }
+
+    .icon-user{
+      padding-left: 23px;
+      padding-top: 3px;
+      img {
+        width: 40px;
+      }
+    }
+
+    .user-menu {
+      padding-left: 10px;
+      padding-top: 4px;
+      a {
+        font-size: 28px;
+        font-weight: bold;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+.content {
+  background-color: #FFF;
+  padding-bottom: 100px;
+  top: -52px;
+  width: 90%;
+  margin: 0 auto;
+
+  .content-1 {
+    padding: 57px 0px;
+    .img_man {
+      position: absolute;
+      right: 22px;
+      top: 70px;
+      height: 420px;
+      z-index: 1;
+    }
+    .content-img {
+      margin-bottom: 20px;
+      img {
+        width: 125px;
+        height: 125px;
+      }
+    }
+
+    .content-tex {
+      line-height: 1;
+      .sub-title {
+        font-size: 35px;
+      }
+      .text-content {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .content-2 {
+    width: 93%;
+    margin: 0 auto;
+    background-color: #FAFBFC;
+    border: 1px solid #f7f7f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .row {
+      padding: 0 45px;
+    }
+
+    .box-content {
+      padding: 0;
+      width: 10%;
+      font-size: 15px;
+      line-height: 1.4;
+      img {
+        width: 60px;
+      }
+      .fa-question-circle {
+        color: #898483;
+      }
+    }
+
+    .box-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  .content-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .text-center img {
+      width: 20px;
+    }
+
+    .text-center p {
+      color: #3fa7e2;
+      font-size: 30px;
+    }
+  }
+
+  .content-4 {
+    width: 93%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+    .collapse-item {
+      border-top: 1px solid #f0f0f0;
+      a {
+        all: unset;
+      }
+    }
+    #headingOne, #headingTwo, #headingThree, #headingFour {
+      height: 50px;
+      padding-top: 15px;
+    }
+
+    .card-block {
+      font-size: 13px;
+      color: #535353;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-header {
+    max-width: 1230px;
+  }
+
+  .container-content {
+    max-width: 1210px;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: asset-url('proximanova-bold-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: asset-url('proximanova-regular-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semi Bold';
+    src: asset-url('proximanova-semibold-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: asset-url('proximanova-light-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

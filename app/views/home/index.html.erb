@@ -1,0 +1,219 @@
+<div class="container container-header">
+  <div class="col header">
+    <div class="row">
+      <div class="logo">
+        <%= image_tag("logo.png", :alt => "no-image") %>
+      </div>
+      <div class="icon-user">
+        <%= image_tag("logo icon.png", :alt => "no-image") %>
+      </div>
+      <div class="user-menu">
+        <a href="#"><%= fa_icon "angle-down" %></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container container-content">
+  <div class="col content">
+    <div class="col content-1">
+      <%= image_tag("man.png",:class => "img_man", :alt => "no-image") %>
+      <div class="row justify-content-md-center content-img">
+        <%= image_tag("clock.png", :alt => "no-image") %>
+      </div>
+      <div class="row justify-content-md-center content-tex">
+        <div class="col col-md-6">
+          <h1 class="text-center font-weight-bold" style="font-family: Proxima Nova Bold;">Your Bids are on the Way!</h1>
+          <p class="text-center sub-title" style="font-family: Proxima Nova Light">Your first quotes should start arriving in 15 mins or less.</p>
+          <p class="text-center text-content" style="font-family: Proxima Nova Light">Local lawn care services in Nashville are looking over your lawn details to submit their pricising as we speak.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col content-2">
+      <div class="row justify-content-md-center">
+        <div class="col text-center box-content">
+          <%= image_tag("icon 1.png", :alt => "no-image") %>
+        </div>
+        <div class="col-md-1 text-center box-arrow">
+          <%= image_tag("arrow up.png", :alt => "no-image") %>
+        </div>
+        <div class="col text-center box-content">
+          <%= image_tag("icon 2.png", :alt => "no-image") %>
+        </div>
+        <div class="col-md-1 text-center box-arrow">
+          <%= image_tag("arrow down.png", :alt => "no-image") %>
+        </div>
+        <div class="col text-center box-content">
+          <%= image_tag("icon 3.png", :alt => "no-image") %>
+        </div>
+        <div class="col-md-1 text-center box-arrow">
+          <%= image_tag("arrow up.png", :alt => "no-image") %>
+        </div>
+        <div class="col text-center box-content">
+          <%= image_tag("icon 4.png", :alt => "no-image") %>
+        </div>
+      </div>
+      <div class="row justify-content-md-center" style="position: relative; top: 15px;">
+        <div class="col text-center box-content">
+          <p style="font-family: Proxima Nova Semi Bold">
+            Get Bids
+          </p>
+          <p style="color: #535353">
+            You will start getting multiple bids here, end to this email: <Strong  style="color: #000">maya@pixelwrapped.com</Strong>
+          </p>
+          <p><a href="#">Change</a></p>
+        </div>
+        <div class="col-md-1 text-center box-arrow"></div>
+        <div class="col text-center box-content">
+          <p style="font-family: Proxima Nova Semi Bold">
+            Pick Your Pro
+          </p>
+          <p style="color: #535353">
+            Read reviews, compare quotes & pick your pro.
+          </p>
+        </div>
+        <div class="col-md-1 text-center box-arrow"></div>
+        <div class="col text-center box-content">
+          <p style="font-family: Proxima Nova Semi Bold">
+            Flexibility <%= fa_icon "question-circle" %>
+          </p>
+          <p style="color: #535353">
+            Your service date is set for <strong style="color: #000">Friday, May 26<sup>th</sup></strong>, and is flexible by:
+            <p>
+              <div class="row justify-content-md-center">
+                <div class="col" style="padding: 0">
+                  <form action="#">
+                    <div class="form-group">
+                      <select class="form-control" id="exampleSelect1">
+                        <option>1 Day</option>
+                        <option>2 Day</option>
+                        <option>3 Day</option>
+                        <option>4 Day</option>
+                        <option>5 Day</option>
+                      </select>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </p>
+            <p style="color: #535353">More flexibility will fetch better pricing.</p>
+          </p>
+        </div>
+        <div class="col-md-1 text-center box-arrow"></div>
+        <div class="col text-center box-content">
+          <p style="font-family: Proxima Nova Semi Bold">
+            Payment
+          </p>
+          <p style="color: #535353">
+            After moving is done, pay throught GreenPal.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col content-3">
+      <div class="col text-center">
+        <%= image_tag("arrow blue.png", :alt => "no-image") %>
+      </div>
+      <div class="col text-center">
+        <p style="font-family: Proxima Nova Light">You might be wondering...</p>
+      </div>
+    </div>
+    <div class="col content-4">
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="collapse-item">
+          <div class="" role="tab" id="headingOne">
+            <div class="row justify-content-md-center content-img">
+              <div class="col-md-8">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-family: Proxima Nova Semi Bold">
+                    What's Included in the quotes?
+                  </a>
+                </h5>
+              </div>
+              <div class="col-md-4 text-right">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-family: Proxima Nova Semi Bold">
+                  <%= fa_icon "angle-up" %>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div class="card-block">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ut excepturi magni facere quisquam culpa laborum cumque nostrum impedit aspernatur ea, iure aliquid, earum praesentium tenetur ducimus corporis voluptatibus omnis.
+            </div>
+          </div>
+        </div>
+        <div class="collapse-item">
+          <div class="" role="tab" id="headingTwo">
+            <div class="row justify-content-md-center content-img">
+              <div class="col-md-8">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-family: Proxima Nova Semi Bold">
+                    I want to more services like Shrub Prunning & Mulch
+                  </a>
+                </h5>
+              </div>
+              <div class="col-md-4 text-right">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-family: Proxima Nova Semi Bold">
+                  <%= fa_icon "angle-down" %>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="card-block">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolore quod et dolorum, nemo doloremque excepturi quis ab esse reiciendis architecto, earum nam mollitia officiis accusantium a beatae, officia vero!
+            </div>
+          </div>
+        </div>
+        <div class="collapse-item">
+          <div class="" role="tab" id="headingThree">
+            <div class="row justify-content-md-center content-img">
+              <div class="col-md-8">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-family: Proxima Nova Semi Bold">
+                    When do I pay?
+                  </a>
+                </h5>
+              </div>
+              <div class="col-md-4 text-right">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-family: Proxima Nova Semi Bold">
+                  <%= fa_icon "angle-down" %>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="card-block">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam officiis voluptas, fugiat eaque quae earum vel dolores voluptates facilis totam placeat aut veritatis quos ratione similique doloremque distinctio et nostrum.
+            </div>
+          </div>
+        </div>
+        <div class="collapse-item">
+          <div class="" role="tab" id="headingFour">
+            <div class="row justify-content-md-center content-img">
+              <div class="col-md-8">
+                <h5 class="mb-0">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-family: Proxima Nova Semi Bold">
+                    What time is he coming? Do I need to be home?
+                  </a>
+                </h5>
+              </div>
+              <div class="col-md-4 text-right">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-family: Proxima Nova Semi Bold">
+                  <%= fa_icon "angle-down" %>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="card-block">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolore quod et dolorum, nemo doloremque excepturi quis ab esse reiciendis architecto, earum nam mollitia officiis accusantium a beatae, officia vero!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
